@@ -1,0 +1,164 @@
+body {
+    background-color: #b2f1f3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ff69b4;
+    margin: 0;
+}
+h2 {
+    font-size: 3rem;
+    color: #fbff21;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+p2 {
+    font-size: 1.5rem;
+    color: #198eee;
+    margin-top: 20px;
+}
+.balloons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.balloon {
+    width: 100px;
+    height: 150px;
+    background-color: #fc4ba3;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 10px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.balloon::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 50px;
+    background-color: #000;
+}
+.hbd {
+    font-size: 80px;
+}
+.name {
+    font-size: 80px;
+}
+.อวยพร {
+    font-size: 27px;
+}
+.Good {
+    font-size: 50px;
+}
+.Bye {
+    font-size: 50px;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.hbd {
+    color: rgb(253, 33, 253);
+}
+.name {
+    color: rgb(78, 155, 6);
+}
+.อวยพร {
+    color: rgb(96, 4, 201);
+}
+.Good {
+    color: rgb(161, 19, 204);
+}
+.Bye {
+    color: rgb(209, 10, 216);
+}
+.content-center {
+    margin: auto;
+}
+
+.content-left {
+    text-align: left;
+}
+
+.content-right {
+    text-align: right;
+}
+
+/* Font Styles */
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-thin {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-extralight {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-light {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-regular {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-medium {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-semibold {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-bold {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
